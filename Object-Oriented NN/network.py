@@ -45,5 +45,5 @@ class Network():
                     error = layer.backward_propagation(error, learning_rate)
 
             # calculate average error on all samples
-            err /= samples
+            err /= sample_size
             print('epoch %d/%d   error=%f' % (i+1, epochs, err))
