@@ -5,7 +5,7 @@ class Network():
         self.loss_prime = None
 
     # add layer to the network
-    def add_layer(self, layer):
+    def add(self, layer):
         self.layers.append(layer)
     
     # set loss to use

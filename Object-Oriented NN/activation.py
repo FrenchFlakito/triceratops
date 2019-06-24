@@ -1,5 +1,5 @@
 
-from layer import Layer
+from base_class import Layer
 
 # inherit from base class Layer
 class ActivationLayer(Layer):
